@@ -1,0 +1,141 @@
+\documentclass[a4paper,12pt]{exam}
+\usepackage{amsmath, amssymb}
+\usepackage{enumerate}
+
+\input{config}
+
+%%  DO NOT edit anything beyond this point unless you know what you are doing.
+
+
+%%%%%%%%%%%%%%%%%%%%%%% DO NOT EDIT unless you know what you are doing %%%%%%%%
+\addpoints
+
+\firstpageheader{}{}{\bf \CourseCode}
+
+\runningfooter
+        {\Date}
+        {Page \thepage\ of \numpages}
+        {\CourseCode~ \Test}
+% \headrule
+
+
+% \footrule
+% \cfoot{}
+
+\pointsinrightmargin
+\boxedpoints
+\renewcommand{\arraystretch}{2.5}
+% \renewcommand{\baselinestretch}{1.2}
+
+\usepackage{tikzpagenodes}
+\usepackage{background}
+\definecolor{notepadrule}{RGB}{217,244,244}
+\backgroundsetup{
+scale=1,
+angle=0,
+opacity=1
+}
+\renewcommand{\questionshook}{%
+        \setlength{\leftmargin}{0.2em}%
+        \setlength{\labelsep}{0.50em}%
+}
+
+\def\comp{\overline}
+\def\gives{\rightarrow}
+\def\into{\rightarrow}
+\def\bbN{\mathbb{N}}
+\def\bbR{\mathbb{R}}
+\def\conj{\wedge}
+\def\disj{\vee}
+\def\imp{\rightarrow}
+\def\({\left(}
+\def\){\right)}
+
+\begin{document}
+
+% Title area
+\begin{center}
+
+        Department of \Department, IIT Palakkad\\
+        % Indian Institute of Technology Palakkad
+        {\bf \CourseCode~ \CourseName} \\
+        \Test{} (\Date) \\
+        Time: \Time \hfill Points: \numpoints
+
+
+
+        \vspace{1in}
+        \noindent
+        {\bf Name:} \dotfill
+
+        \bigskip
+        \noindent
+        {\bf Roll No:} \dotfill
+
+        \vspace{1in}
+        \fbox
+        {
+                \parbox{\textwidth}
+                {
+                        \medskip
+                        \centering{\bf Instructions}
+                        \begin{enumerate}
+                        \item
+                                There are a total of {\bf \numquestions\ questions} in {\bf \numpages\ pages}
+                                in this quiz-booklet .
+                                Please get a new booklet if any page is missing.
+                        \item
+                                Write your {\bf name} and {\bf roll number} in the space above.
+                    \item
+                                Answer each question in the corresponding space provided.
+                                Any rough work can be done on the back side of these pages.
+                                {\bf No additional sheets} will be provided.
+                    \item
+                                Write your answers neatly in blue or black {\bf ink}.
+                                Do not use pencil or red ink.
+                                If the answer is not legible,
+                                benefit of doubt will go to the wrong answer.
+                        \item
+                                Every step in the proofs should be accompanied with
+                                a proper justification.
+                        \item
+                                Do not keep any books, loose sheets of paper, mobile phones or
+                                other smart gadgets with you during the exam.
+                        \item
+                                Good luck!
+                \end{enumerate}
+                }
+        }
+
+\end{center}
+
+        \vspace{0.5in}
+        \noindent Space for grades and feedback (do not write anything below)
+
+        \hrule
+
+
+\newpage
+
+\backgroundsetup{
+contents={%
+  \begin{tikzpicture}
+    \foreach \fila in {-1,0,...,27}
+    {
+      \draw [line width=1pt,color=notepadrule]
+      (current page.west|-0,-\fila*24pt) -- ++(\paperwidth,0);
+    }
+    \draw[overlay,red!70!black,line width=1pt]
+      ([xshift=-1pt]current page text area.west|-current page.north) --
+      ([xshift=-1pt]current page text area.west|-current page.south);
+  \end{tikzpicture}%
+},
+scale=1,
+angle=0,
+opacity=1
+}
+
+\begin{questions}
+\input{questions}
+\end{questions}
+\end{document}
