@@ -2,8 +2,8 @@
 
 # Templates
 
-This repository provides templates for creating documents relevant of
-various kinds relevant to IIT Palakkad.
+This repository provides templates for creating documents of various
+kinds relevant to IIT Palakkad.
 
 # Legal
 
