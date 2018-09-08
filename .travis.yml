@@ -1,0 +1,24 @@
+language: c
+sudo: false
+notifications:
+  on_success: always
+  on_failure: always
+  use_notice: false
+  skip_join: false
+
+fast_finish: true
+
+addons:
+  apt:
+    packages:
+      - latexmk
+      - texlive-full
+
+script:
+  - make all
+  - make clean
+
+after_success:
+  - echo "All is well."
+after_failure:
+  - echo "Build failed."
