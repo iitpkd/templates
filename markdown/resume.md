@@ -2,7 +2,7 @@
 
 # Student Name
 
-[emailid@domain.org](mailto:emailid@domain.org) | [LinkedIn](linkedin.com) | [GitHub](github.com)
+[emailid@domain.org](mailto:emailid@domain.org) | [LinkedIn](www.linkedin.com) | [GitHub](www.github.com)
 
 Third Year Undergrad  
 Computer Science and Engineering  
