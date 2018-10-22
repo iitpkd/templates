@@ -2,7 +2,7 @@
 
 # Student Name
 
-[emailid@domain.org](mailto:emailid@domain.org) | [LinkedIn](www.linkedin.com) | [GitHub](www.github.com)
+[emailid@domain.org](mailto:emailid@domain.org) | [LinkedIn](http://www.linkedin.com) | [GitHub](http://www.github.com)
 
 Third Year Undergrad  
 Computer Science and Engineering  
@@ -32,13 +32,13 @@ Clearly state the statement of purpose. For example, "I am a machine learning en
 
 ## Projects
 
-* __Project 1:__ _(Jan, 2018 - Feb, 2018)_ Designed and implemented a Hashing protocol in Haskell for encrypting and decrypting messages on LAN. Find the implementation [here](github.com).
+* __Project 1:__ _(Jan, 2018 - Feb, 2018)_ Designed and implemented a Hashing protocol in Haskell for encrypting and decrypting messages on LAN. Find the implementation [here](http://www.github.com).
 * __Project 2:__ _(March, 2018 - April, 2018)_ Similar short description.
 
 ## Professional Experiences
 
-* __Research Intern @IIT Madras:__ _(May 2017 - July 2017)_ Worked on some important stuff. Certificate could be found [here](drive.google.com).
-* __Software Developer Intern @AgniCool:__ _(May 2018- July 2018)_ Worked in agile environment. [Here](google.com) is a link to Google's home page. 
+* __Research Intern @IIT Madras:__ _(May 2017 - July 2017)_ Worked on some important stuff. Certificate could be found [here](http://drive.google.com).
+* __Software Developer Intern @AgniCool:__ _(May 2018- July 2018)_ Worked in agile environment. [Here](http://www.google.com) is a link to Google's home page. 
 
 ## Relevant Courses
 * Core Courses
