@@ -1,7 +1,6 @@
-<div class="header">
-  <img src="images/logo.png" alt="logo" style="float: right; max-height: 100px;padding-right: 70px;padding-left:70px;"/>
-  <h1 src="position: relative; top: 18px;left: 10px;">Student Name</h1>
-</div>
+<img src="images/logo.png" alt="logo" align="right" height = 100px padding = 50px/>
+
+# Student Name
 
 [emailid@domain.org](mailto:emailid@domain.org) | [LinkedIn](linkedin.com) | [GitHub](github.com)
 
