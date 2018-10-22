@@ -3,10 +3,11 @@
   <h1 src="position: relative; top: 18px;left: 10px;">Student Name</h1>
 </div>
 
-<div id="webaddress">
-<a href="mailto:emailid@domain.org">emailid@domain.org</a>
-| <a href="linkedin.com">LinkedIn</a>
-</div>
+[emailid@domain.org](mailto:emailid@domain.org) | [LinkedIn](linkedin.com) | [GitHub](github.com)
+
+Third Year Undergrad  
+Computer Science and Engineering  
+Indian Institute of Technology, Palakkad
 
 ## Statement of Purpose
 
