@@ -1,8 +1,12 @@
 # MarkDown Templates
 _contributed by: [Ashutosh Upadhye](https://github.com/ashutosh2411)_
 
-* This folder contains templates for reports, presentations, and resume in MarkDown. 
+* This folder contains templates for 
+	* Presentation
+	* Resume 
 * A simpler report is most of the times much appreciated. 
+* To do:
+	* Report
 
 ## Generate a PDF from your MarkDown. 
 
