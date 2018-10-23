@@ -13,6 +13,7 @@ First get the latest version of templates. The easiest would be to use git.
 git clone https://github.com/iitpkd/templates/
 
 ```
+### Latex templates
 
 Each template is a complete directory together with a Makefile (if
 relevant). For example, `latex/question-paper-booklet` is a latex
@@ -41,6 +42,8 @@ in the appropriate directory would work. You can also cleanup by
 typing `make clean`. Each of the templates themselves should have a
 `README` that contains instructions on how to use it.
 
+### Markdown templates
+Refer [`README.md`](markdown/README.md) file in markdown folder.
 
 ## Legal
 
@@ -49,3 +52,4 @@ accompanying LICENSE file).
 
 [travis-status]: <https://travis-ci.org/iitpkd/templates.svg> "Build Status"
 [travis]: <https://travis-ci.org/iitpkd/templates> "Build Status"
+
