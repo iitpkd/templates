@@ -1,12 +1,23 @@
 # MarkDown Templates
 _contributed by: [Ashutosh Upadhye](https://github.com/ashutosh2411)_
 
-* This folder contains templates for 
-	* Presentation
-	* Resume 
-* A simpler report is most of the times much appreciated. 
-* To do:
-	* Report
+[`resume.md`](resume.md) is a resume template very close to the one specified by [IIT Palakkad](https://www.iitpkd.ac.in/).
+
+## Checklist
+
+* Ensure that you have changed all the dummy fields.
+	* **Header:** Name, LinkedIn URL, GitHub URL, Branch, Year.
+	* Statement of purpose.
+	* Correct Qualifications.
+	* Achievements.
+	* Skills.
+	* Projects.
+	* Professional Experiences.
+	* Relevant Courses.
+	* Positions of Responsibility.
+	* Extra Curricular Activities.
+	* Miscellaneous. 
+* Ensure that in the footer you have modified the `last updated` field.
 
 ## Generate a PDF from your MarkDown. 
 
@@ -17,9 +28,3 @@ _contributed by: [Ashutosh Upadhye](https://github.com/ashutosh2411)_
 * To work locally on MarkDown 
 	* you can install the SublimeText3 plugin, [MarkdownLivePreview](https://packagecontrol.io/packages/MarkdownLivePreview). 
 	* use Markdown Preview style in [Marp](https://yhatt.github.io/marp/). _(preferred)_
-
-## Generate Slides from your MarkDown.
-
-* Use [Marp](https://github.com/yhatt/marp#usage).
-* If you use Linux, you might wanna create a [desktop entry](https://gist.github.com/ashutosh2411/013949bdc3afd3695ab27ed67512c844) as well. 
-* Check out [example md](slides.md) file and the [rendered pdf](slides.pdf) file. 
