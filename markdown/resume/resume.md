@@ -40,8 +40,8 @@ Clearly state the statement of purpose. For example, "I am a machine learning en
 
 ## Professional Experiences
 
-* __Research Intern @IIT Madras:__ _(May 2017 - July 2017)_ Worked on some important stuff. Certificate could be found [here](https://drive.google.com).
-* __Software Developer Intern @AgniCool:__ _(May 2018- July 2018)_ Worked in agile environment. [Here](https://www.google.com) is a link to Google's home page. 
+* __Intern @Google:__ _(May 2017 - July 2017)_ Worked on some important stuff. Certificate could be found [here](https://drive.google.com).
+* __Volunteer @Noble Prize Foundation:__ _(May 2018- July 2018)_ Helped nominate noble laurates. [Here](https://www.google.com) is a link to Google's home page. 
 
 ## Relevant Courses
 * Core Courses
@@ -69,7 +69,7 @@ Clearly state the statement of purpose. For example, "I am a machine learning en
 * Active member of.
 * NSS volunteer from _date_ to _date_
 
-## Miscellaneous
+## Miscellaneous _(eg: references)_
 * Misc1
 * Misc2
 
