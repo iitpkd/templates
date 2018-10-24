@@ -36,7 +36,7 @@ Clearly state the statement of purpose. For example, "I am a machine learning en
 ## Projects
 
 * __Project 1:__ _(Jan, 2018 - Feb, 2018)_ Proved `p = np`. The task was difficult to do, but not impossible. The detailed proof can be found [here](https://www.github.com).
-* __Project 2:__ _(March, 2018 - April, 2018)_ Similar short description.
+* __Project 2:__ _(March, 2018 - April, 2018)_ Designed a Death-Ray to fight zombies and save Humanity for post apocalyptic scenario. It's confidential, so no public designs available.
 
 ## Professional Experiences
 
