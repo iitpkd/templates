@@ -1,11 +1,13 @@
-Marp
-===
+<img src="images/logo.png" height = "200px" align = 'right' style = "padding-right:50px;"></img>
 
-![](images/logo.png)
+# Presentations with Marp
 
-##### Markdown presentation writer, powered by [Electron](http://electron.atom.io/)
+##### Helpful hints for creating Presentations. 
 
 ###### Created by Yuki Hattori ( [@yhatt](https://github.com/yhatt) )
+###### Adapted by Ashutosh Upadhye ( [@ashutosh2411](https://github.com/ashutosh2411) )
+
+<!--*footer: Even I don't know why I have used the IIT PKD logo there.-->
 
 ---
 
@@ -15,7 +17,7 @@ Marp
 - Cross-platform. Supports Windows, Mac, and Linux
 - Live Preview with 3 modes
 - Slide themes (`default`, `gaia`) and custom background images
-- Supports emoji :heart:
+- Supports emojis :heart:.
 - Render maths in your slides
 - Export your slides to PDF
 
@@ -223,9 +225,56 @@ $$I_{xx}=\int\int_Ry^2f(x,y)\cdot{}dydx$$
 
 ---
 
+## Codecs Typesetting
+
+Include code snippets in your presentations to make them more appealing. 
+```c
+void main(){
+    int i = 5, j = 6;
+    printf("%d", i + j);
+    return ()
+}
+```
+```cpp
+int main ()
+{
+  int i;
+  cout << "Please enter an integer value: ";
+  cin >> i;
+  cout << "The value you entered is " << i;
+  cout << " and its double is " << i*2 << ".\n";
+  return 0;
+}
+```
+Yes, it supports syntax highlighting, for multiple languages!
+
+---
+
+## How to typeset Codecs
+
+<div class="highlighter-rouge">
+  <div class="highlight">
+    <pre class="highlight">
+<code>```haskell
+data Foo a = Constructor1
+           | Constructor2 a
+           | Constructor3 [a]
+```
+</code></pre></div></div>
+The above snippet renders to:
+
+```haskell
+data Foo a = Constructor1
+           | Constructor2 a
+           | Constructor3 [a]
+```
+
+---
+
 ## Enjoy writing slides! :+1:
 
 ### https://github.com/yhatt/marp
 
 Copyright &copy; 2016 [Yuki Hattori](https://github.com/yhatt)
 This software released under the [MIT License](https://github.com/yhatt/marp/blob/master/LICENSE).
+<!--*footer:MIT License permits modification as long as original copyrights are acknowledged.-->
