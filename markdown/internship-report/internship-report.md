@@ -52,7 +52,7 @@ This report describes the internship I spent at the Krasnodar Regional Center of
 # List of Figures
 |Figure #| Figure Title|
 |-|-|
-|1|Name of Figure1|
+|1|IIT Palakkad Logo|
 |2|
 |3|
 
@@ -83,7 +83,11 @@ Start here. Lorem Ipsum is simply dummy text of the printing and typesetting ind
 <div style="page-break-after: always;"></div>
 
 # Problem Definition
-Define the problem here. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Define the problem here. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+![A Random Image](images/logo.png)
+_Figure 1: IIT Palakkad Logo._
+
+It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
 <div style="page-break-after: always;"></div>
 
@@ -99,7 +103,14 @@ Describe the experimental or simulational approach. Lorem Ipsum is simply dummy 
 <div style="page-break-after: always;"></div>
 
 # Results and Discussion
-The Result and Discussion goes here. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+The Result and Discussion goes here. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+
+|Header1|Header2|Header3|
+|-------|-------|-------|
+|Value1 |Value2 |Value3
+_Table 1: Sample Table_
+
+It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
 <div style="page-break-after: always;"></div>
 
