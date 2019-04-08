@@ -1,0 +1,98 @@
+*************************************************************************************************************
+Description : Formatting instructions for thesis submissions to IIT Palakkad 
+Author : Jasine Babu (jasine@iitpkd.ac.in)
+Version : 1.0
+Release Date : April 9, 2019
+*************************************************************************************************************
+
+*************************************************************************************************************
+Print/Screen Read Versions 
+*************************************************************************************************************
+1. For print ready version of the thesis, use black and white version of the title page, preamble pages and 
+   remove colour links. Printed version should use double sided printing.
+2. For soft copy submissions, use the colour version of the title page, preamble pages and links. 
+   Title page colour scheme should not be modified. It is recommended that section titles in table of contents
+   are hyperlinked to the corresponding sections. Similarly, in-text citations and references should be linked. 
+*************************************************************************************************************
+
+*************************************************************************************************************
+Organizing the preamble (see SampleThesisScreenView.pdf and SampleThesisforPrint.pdf)
+*************************************************************************************************************
+The initial few pages should contain the following in that order:
+  Page 1 : Title page 
+  Page 2 (backside of page 1) : Copyright Information
+  Page 3 : Certificate from supervisor(s) in the prescribed format.
+  Page 4 : Blank
+  Page 5 : Declaration by the student in the prescribed format.
+  Page 6 : Blank
+  Page 7 : Dedications (if any)
+  Page 8 : Blank (not required if dedications are not present).
+
+This should be followed by the following items. Each item should start on an odd numbered page. 
+a. Abstract 
+   (Last couple of lines in abstract should mention Keywords and Subject classification (if relevant).
+b. List of Publications by the student
+c. Acknowledgements
+d. Contents in the prescribed format. 
+   The contents page should include the following (if relevant)
+   List of Figures, List of Tables, List of Algorithms, Listings (for code), List of Symbols, Abbreviations 
+**************************************************************************************************************
+
+
+*************************************************************************************************************
+Organizing the thesis
+*************************************************************************************************************
+1. It is advised that the thesis is organized into parts (if required), chapters, sections, subsections, and paragraphs.
+2. An optional part named Appendix may be added which may contain one or more chapters. 
+3. In the end, Bibliography should be provided. The format of the bibliography should follow some standard
+   convension. 
+4. Each new part or chapter should start on an odd numbered page, so that it looks good on print.
+5. Theorem like environments follow section-wise numbering, with minor exceptions allowed.
+6. Floating environments like figures, tables and algorithms should follow chapter-wise numbering.
+*************************************************************************************************************
+
+
+*************************************************************************************************************
+Margins and formatting the margin
+*************************************************************************************************************
+Top : 1 inch for normal pages, 1.6 inches for first page of chapter
+Bottom : 1.6 inches (on pages without footnotes)
+Binding side : 1.3 inches  (Binding side is left on odd pages and right on even pages)
+Non-binding side (Recommended): 2.3 inches (This space may be used for margin notes). 
+                   This may be reduced to 1.6 inches but not lesser, if margin notes are not used.
+Header (Recommended): Section title should appear along with section number in the header of 
+                      every odd numbered page other than the first page of a chapter. 
+                      Chapter title should appear along with chapter number in the 
+                      header of every even numbered page.
+
+*************************************************************************************************************
+
+
+*************************************************************************************************************
+Font Options (Recommended)
+*************************************************************************************************************
+For latex :
+1. Palatino together with eulermath for math fonts (see SampleThesisforPrint.pdf) or
+2. Palatino together with cmmodern for math fonts (see SampleThesisNoEulerMath.pdf)
+
+For Word format :
+1. Palatino Linotype or 
+2. Book Antiqua.
+
+For Open office :
+1. Palatino
+*************************************************************************************************************
+
+*************************************************************************************************************
+Font sizes / Typesetting
+*************************************************************************************************************
+Latex font size : 11pt for regular text and suitable larger font sizes for titles.
+Titles (recommended): Chapter headings and main section headings should be capitalized.
+Linespacing : single or 1.1
+*************************************************************************************************************
+
+*************************************************************************************************************
+Template : See classicthesis_iitpkd.zip
+For instructions for compilation and customization, follow README document in the directory classicthesis_iitpkd
+Two important options are the flags eulermath and printready configurable in the file classicthesis-config.tex
+*************************************************************************************************************
