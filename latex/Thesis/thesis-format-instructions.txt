@@ -51,6 +51,15 @@ Organizing the thesis
 6. Floating environments like figures, tables and algorithms should follow chapter-wise numbering.
 *************************************************************************************************************
 
+*************************************************************************************************************
+Bibliography and References
+*************************************************************************************************************
+1. For typesetting bibliography section and the ordering of items in the bibliography, adhere to one of the 
+   standard format that is followed in your discipline of study. Similary, follow a standard convention of 
+   your discipline for citing references. 
+2. Latex users are advised to maintain compatibility with natbib. Settings in the template may be tuned by editing
+   relevant section of classicthesis-config.tex.
+*************************************************************************************************************
 
 *************************************************************************************************************
 Margins and formatting the margin
@@ -72,8 +81,8 @@ Header (Recommended): Section title should appear along with section number in t
 Font Options (Recommended)
 *************************************************************************************************************
 For latex :
-1. Palatino together with eulermath for math fonts (see SampleThesisforPrint.pdf) or
-2. Palatino together with cmmodern for math fonts (see SampleThesisNoEulerMath.pdf)
+1. Palatino together with eulermath for math fonts (see sample-thesis-for-print.pdf) or
+2. Palatino together with cmmodern for math fonts (see Sample-thesis-no-euler-math.pdf)
 
 For Word format :
 1. Palatino Linotype or 
@@ -88,7 +97,10 @@ Font sizes / Typesetting
 *************************************************************************************************************
 Latex font size : 11pt for regular text and suitable larger font sizes for titles.
 Titles (recommended): Chapter headings and main section headings should be capitalized.
-Linespacing : single or 1.1
+Linespacing : 1.1 for Palatino or Book Antiqua.
+
+Note : If a font different from recommended fonts is used (like Times New Roman), the font size
+       may be upto 12pt for regular text with a maximum linespacing upto 1.5. 
 *************************************************************************************************************
 
 *************************************************************************************************************
