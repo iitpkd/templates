@@ -1,0 +1,280 @@
+% ****************************************************************************************************
+% classicthesis-config.tex
+% formerly known as loadpackages.sty, classicthesis-ldpkg.sty, and classicthesis-preamble.sty
+% Use it at the beginning of your ClassicThesis.tex, or as a LaTeX Preamble
+% in your ClassicThesis.{tex,lyx} with \input{classicthesis-config}
+% ****************************************************************************************************
+% If you like the classicthesis, then I would appreciate a postcard.
+% My address can be found in the file ClassicThesis.pdf. A collection
+% of the postcards I received so far is available online at
+% http://postcards.miede.de
+% ****************************************************************************************************
+
+\RequirePackage{silence} % :-\suppress an unnecessary warning in compilation
+    \WarningFilter{scrreprt}{Usage of package `titlesec'}
+    \WarningFilter{titlesec}{Non standard sectioning command detected}
+    \WarningFilter{hyperref}{Token not allowed in a PDF string (PDFDocEncoding)}
+   
+% ****************************************************************************************************
+% 0. Set the encoding of your files. UTF-8 is the only sensible encoding nowadays. If you can't read
+% äöüßáéçèê∂åëæƒÏ€ then change the encoding setting in your editor, not the line below. If your editor
+% does not support utf8 use another editor!
+% ****************************************************************************************************
+\PassOptionsToPackage{utf8}{inputenc}
+  \usepackage{inputenc}
+
+\PassOptionsToPackage{T1}{fontenc} % T2A for cyrillics
+  \usepackage{fontenc}
+
+\PassOptionsToPackage{final}{microtype}  %jasine
+\usepackage[final]{microtype} %jasine
+
+\emergencystretch=1em
+
+% *******************************************************************************************************************
+% Note : Do not edit above this line
+% Note : Do not edit options to classicthesis given below except the options eulermath, drafting, printready and numsupervisors
+% % 
+% *******************************************************************************************************************
+\PassOptionsToPackage{
+   tocaligned=false, 
+  dottedtoc=true,
+  eulerchapternumbers=true, 
+  linedheaders=false,      
+  eulermath=true, %true, %false %If false is set, cmmodern font will be used for math. %If text font is changed, be careful about this option.  
+  beramono=true,   
+  palatino=true,    
+  style=classicthesis, 
+  floatperchapter=true,     % numbering per chapter for all floats (i.e., Figure 1.1)
+  numsupervisors=one, %one %two %three %set according to your number of supervisors
+  %drafting=true,    % print version information on the bottom of the pages only for draft
+  drafting=false, % for final version this line is to be used
+  %printready=false %Enable this for making title page and hyperreflinks in colour for screen reading
+  printready=true  %Enable this for making title page and hyperreflinks in black for printing
+ }{classicthesis}
+
+
+% ****************************************************************************************************
+% 2. Personal data and user ad-hoc commands (insert your own data here)
+% ****************************************************************************************************
+
+\newcommand{\myTitle}{Main Title of Your Thesis\xspace}
+%\newcommand{\mySubtitle}{Subtitle of Your Thesis\xspace}
+\newcommand{\myDegree}{Doctor of Philosophy\xspace}
+%\newcommand{\myDegree}{Master of Science \xspace}
+%\newcommand{\myDegree}{Master of Technology \xspace}
+%\newcommand{\myDegree}{Master of Science in Engineering \xspace}
+\newcommand{\myName}{Your Full Name\xspace}
+\newcommand{\myRollNo}{YourRollNo\xspace}
+\newcommand{\myGender}{her\xspace}
+%\newcommand{\myGender}{him\xspace}
+\newcommand{\mySupervisorOne}{Supervisor Name}
+\newcommand{\mySupervisorTwo}{Another Supervisor Name}%used only if necessary
+\newcommand{\mySupervisorThree}{Another Supervisor Name}%used only if necessary
+\newcommand{\myDepartment}{Department of Computer Science and Engineering\xspace}
+\newcommand{\myUni}{Indian Institute of Technology Palakkad\xspace}
+\newcommand{\myLocation}{Palakkad\xspace}
+\newcommand{\myTime}{Month YYYY\xspace}
+\newcommand{\myVersion}{\classicthesis}
+% ********************************************************************
+% Setup, finetuning, and useful commands
+% ********************************************************************
+\providecommand{\mLyX}{L\kern-.1667em\lower.25em\hbox{Y}\kern-.125emX\@}
+\newcommand{\ie}{i.\,e.}
+\newcommand{\Ie}{I.\,e.}
+\newcommand{\eg}{e.\,g.}
+\newcommand{\Eg}{E.\,g.}
+% ****************************************************************************************************
+
+
+% ****************************************************************************************************
+% 3. Loading some handy packages
+% ****************************************************************************************************
+% ********************************************************************
+% Packages with options that might require adjustments
+% ********************************************************************
+\PassOptionsToPackage{ngerman,american}{babel} % change this to your language(s), main language last
+\usepackage{babel}
+
+\usepackage{csquotes}
+%%%%%You may change the reference format to any of the options given agaist the parameters. 
+%%%%%It is suggested that you maintain compatibility with natbib.
+\PassOptionsToPackage{%
+  %backend=biber,bibencoding=utf8, %instead of bibtex
+  backend=bibtex8,bibencoding=ascii,%
+  language=auto,%
+  style=numeric-comp,%
+  %style=authoryear-comp, % Author 1999, 2010
+  %bibstyle=authoryear,dashed=false, % dashed: substitute rep. author with ---
+  sorting=nyt, % name, year, title
+  maxbibnames=10, % default: 3, et al.
+  %backref=true,%
+  natbib=true % natbib compatibility mode (\citep and \citet still work)
+}{biblatex}
+\usepackage{biblatex}
+
+\PassOptionsToPackage{fleqn}{amsmath}       % math environments and more by the AMS
+   \usepackage{amsmath}
+
+\usepackage{amssymb}
+\usepackage{wasysym}
+\usepackage{amsthm} 
+\usepackage{mathrsfs}
+\usepackage{mathtools}
+\usepackage{epsfig}
+%%%%Theorem like environments follow sectionwise numbering, 
+%%%%only exceptions being 'Remark' and 'Note'.
+%%%%Do not edit this basic setting, if you are adding more such environments.
+\theoremstyle{plain}% default
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{property}[theorem]{Property}
+
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{observation}[theorem]{Observation}
+
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+\newtheorem*{note}{Note}
+\newtheorem{claim}{Claim}[chapter]
+
+\usepackage[ruled,vlined,algochapter]{algorithm2e}
+
+% ********************************************************************
+% General useful packages
+% ********************************************************************
+\usepackage{graphicx} %
+\usepackage{scrhack} % fix warnings when using KOMA with listings package
+\usepackage{xspace} % to get the spacing after macros right
+\PassOptionsToPackage{printonlyused,smaller}{acronym}
+  \usepackage{acronym} % nice macros for handling all acronyms in the thesis
+  \def\bflabel#1{{\acsfont{#1}\hfill}}
+  \def\aclabelfont#1{\acsfont{#1}}
+% ****************************************************************************************************
+%\usepackage{pgfplots} % External TikZ/PGF support (thanks to Andreas Nautsch)
+%\usetikzlibrary{external}
+%\tikzexternalize[mode=list and make, prefix=ext-tikz/]
+% ****************************************************************************************************
+
+
+
+
+% ****************************************************************************************************
+% 4. Setup floats: tables, (sub)figures, and captions
+%%%Do not edit this setting
+% ****************************************************************************************************
+\usepackage{tabularx} % better tables
+  \setlength{\extrarowheight}{3pt} % increase table row height
+\newcommand{\tableheadline}[1]{\multicolumn{1}{l}{\spacedlowsmallcaps{#1}}}
+\newcommand{\myfloatalign}{\centering} % to be used with each float for alignment
+\usepackage{subfig}
+% ****************************************************************************************************
+
+
+% ****************************************************************************************************
+% 5. Setup code listings
+%%Do not edit this setting
+% ****************************************************************************************************
+\usepackage{listings}
+%\lstset{emph={trueIndex,root},emphstyle=\color{BlueViolet}}%\underbar} % for special keywords
+\lstset{language=[LaTeX]Tex,%C++,
+  morekeywords={PassOptionsToPackage,selectlanguage},
+  keywordstyle=\color{CTkeyword},%\bfseries,
+  basicstyle=\small\ttfamily,
+  %identifierstyle=\color{NavyBlue},
+  commentstyle=\color{CTcomment}\ttfamily,
+  stringstyle=\rmfamily,
+  numbers=none,%left,%
+  numberstyle=\scriptsize,%\tiny
+  stepnumber=5,
+  numbersep=8pt,
+  showstringspaces=false,
+  breaklines=true,
+  %frameround=ftff,
+  %frame=single,
+  belowcaptionskip=.75\baselineskip
+  %frame=L
+}
+% ****************************************************************************************************
+
+%%%%Note that for list of symbols to be inluded the following commands needs to be executed
+%%%%pdflatex ClassicThesis.tex
+%%%%makeindex ClassicThesis.nlo -s nomencl.ist -o ClassicThesis.nls
+%%%%pdflatex ClassicThesis.tex
+\usepackage{nomencl}
+\makenomenclature
+\renewcommand{\nomname}{List of Symbols}
+\setlength{\nomlabelwidth}{2.5cm}
+% ****************************************************************************************************
+% 6. Last calls before the bar closes
+% ****************************************************************************************************
+% ********************************************************************
+% Her Majesty herself
+% ********************************************************************
+\usepackage{classicthesis}
+
+
+% ********************************************************************
+% Fine-tune hyperreferences (hyperref should be called last)
+%%%Do not edit this setting
+% ********************************************************************
+\hypersetup{%
+  colorlinks=true, linktocpage=true, pdfstartpage=3, pdfstartview=FitV,%
+  breaklinks=true, pageanchor=true,%
+  pdfpagemode=UseNone, %
+  plainpages=false, bookmarksnumbered, bookmarksopen=true, bookmarksopenlevel=1,%
+  hypertexnames=true, pdfhighlight=/O,%
+  urlcolor=CTurl, linkcolor=CTlink, citecolor=CTcitation, %
+  pdftitle={\myTitle},%
+  pdfauthor={\textcopyright\ \myName, \myUni},%
+  pdfsubject={},%
+  pdfkeywords={},%
+  pdfcreator={pdfLaTeX},%
+  pdfproducer={LaTeX with hyperref and classicthesis}%
+}
+
+%%%%%%%%%Do not edit below this line %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% ********************************************************************
+% Setup autoreferences (hyperref and babel)
+% ********************************************************************
+% There are some issues regarding autorefnames
+% http://www.tex.ac.uk/cgi-bin/texfaq2html?label=latexwords
+% you have to redefine the macros for the
+% language you use, e.g., american, ngerman
+% (as chosen when loading babel/AtBeginDocument)
+% ********************************************************************
+\makeatletter
+\@ifpackageloaded{babel}%
+  {%
+    \addto\extrasamerican{%
+      \renewcommand*{\figureautorefname}{Figure}%
+      \renewcommand*{\tableautorefname}{Table}%
+      \renewcommand*{\partautorefname}{Part}%
+      \renewcommand*{\chapterautorefname}{Chapter}%
+      \renewcommand*{\sectionautorefname}{Section}%
+      \renewcommand*{\subsectionautorefname}{Section}%
+      \renewcommand*{\subsubsectionautorefname}{Section}%
+    }%
+    \addto\extrasngerman{%
+      \renewcommand*{\paragraphautorefname}{Absatz}%
+      \renewcommand*{\subparagraphautorefname}{Unterabsatz}%
+      \renewcommand*{\footnoteautorefname}{Fu\"snote}%
+      \renewcommand*{\FancyVerbLineautorefname}{Zeile}%
+      \renewcommand*{\theoremautorefname}{Theorem}%
+      \renewcommand*{\appendixautorefname}{Anhang}%
+      \renewcommand*{\equationautorefname}{Gleichung}%
+      \renewcommand*{\itemautorefname}{Punkt}%
+    }%
+      % Fix to getting autorefs for subfigures right (thanks to Belinda Vogt for changing the definition)
+      \providecommand{\subfigureautorefname}{\figureautorefname}%
+    }{\relax}
+\makeatother
+
+\listfiles
+\linespread{1.1} % a bit more for Palatino
