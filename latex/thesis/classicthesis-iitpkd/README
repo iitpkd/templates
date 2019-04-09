@@ -19,9 +19,9 @@ Software Requirements : texlive-full, pdflatex, latexmk, biblatex
 Compilation Steps :
 1. latexmk -C
 2. rm *.bbl *.loa *.lol *.nlo *.nls *.xml
-2. latexmk -f -pdf ClassicThesis.tex
-3. makeindex ClassicThesis.nlo -s nomencl.ist -o ClassicThesis.nls
-3. pdflatex ClassicThesis.tex
+2. latexmk -f -pdf classicthesis.tex
+3. makeindex classicthesis.nlo -s nomencl.ist -o classicthesis.nls
+3. pdflatex classicthesis.tex
 4. latexmk -c
 
 Important Notes :
