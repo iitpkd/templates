@@ -42,8 +42,8 @@
 %********************************************************************
 % Bibliographies - change according to your need
 %*******************************************************
-\addbibresource{Bibliography.bib} %
-\addbibresource[label=ownpubs]{MyPublications.bib} % Your own publications
+\addbibresource{bibliography.bib} %
+\addbibresource[label=ownpubs]{mypublications.bib} % Your own publications
 
 \begin{document}
 \frenchspacing
@@ -53,17 +53,17 @@
 %********************************************************************
 % Frontmatter
 %*******************************************************
-\include{FrontBackmatter/Titlepage}
-\include{FrontBackmatter/Titleback}
-\cleardoublepage\include{FrontBackmatter/Certificate}
-\cleardoublepage\include{FrontBackmatter/Declaration}
-\cleardoublepage\include{FrontBackmatter/Dedication}
-\cleardoublepage\include{FrontBackmatter/Abstract}
-\cleardoublepage\include{FrontBackmatter/Publications}
-\cleardoublepage\include{FrontBackmatter/Acknowledgments}
-\cleardoublepage\include{FrontBackmatter/Contents}
-\cleardoublepage\include{FrontBackmatter/Symbols} %remove this line if you do not need it
-\cleardoublepage\include{FrontBackmatter/Abbreviations} %remove this line if you do not need it
+\include{frontbackmatter/titlepage}
+\include{frontbackmatter/titleback}
+\cleardoublepage\include{frontbackmatter/certificate}
+\cleardoublepage\include{frontbackmatter/declaration}
+\cleardoublepage\include{frontbackmatter/dedication}
+\cleardoublepage\include{frontbackmatter/abstract}
+\cleardoublepage\include{frontbackmatter/publications}
+\cleardoublepage\include{frontbackmatter/acknowledgments}
+\cleardoublepage\include{frontbackmatter/contents}
+\cleardoublepage\include{frontbackmatter/symbols} %remove this line if you do not need it
+\cleardoublepage\include{frontbackmatter/abbreviations} %remove this line if you do not need it
 %********************************************************************
 % Mainmatter
 %*******************************************************
@@ -79,7 +79,7 @@
 % Contents of the other files may be edited as instructed in the respective files
 %**********************************************************************************
 \part{Some Kind of Manual}\label{pt:manual}
-\include{Chapters/Chapter01}
+\include{chapters/chapter01}
 \cleardoublepage
 \ctparttext{This is only a preamble text for part \ref{pt:manual}.
 Illo principalmente su nos. Non message \emph{occidental} angloromanic
@@ -88,10 +88,10 @@ se avantiate publicationes via. Pan in terra summarios, capital
 interlingua se que. Al via multo esser specimen, campo responder que
 da. Le usate medical addresses pro, europa origine sanctificate nos se.}
 \part{Some Usage Samples}\label{pt:showcase}
-\include{Chapters/Chapter02}
+\include{chapters/chapter02}
 \part{More Extensive Testing}\label{pt:testing}
-\include{Chapters/Chapter03}
-\include{Chapters/Chapter05}
+\include{chapters/chapter03}
+\include{chapters/chapter05}
 % ********************************************************************
 % Backmatter
 %*******************************************************
@@ -99,11 +99,11 @@ da. Le usate medical addresses pro, europa origine sanctificate nos se.}
 %\renewcommand{\thechapter}{\alph{chapter}}
 \cleardoublepage
 \part{Appendix}
-\include{Chapters/Chapter0A}
+\include{chapters/chapter0A}
 %********************************************************************
 % Other Stuff in the Back
 %*******************************************************
-\cleardoublepage\include{FrontBackmatter/Bibliography}
+\cleardoublepage\include{frontbackmatter/bibliography}
 %**********************************************************************
 \end{document}
 % ********************************************************************
