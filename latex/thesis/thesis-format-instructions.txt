@@ -104,7 +104,7 @@ Note : If a font different from recommended fonts is used (like Times New Roman)
 *************************************************************************************************************
 
 *************************************************************************************************************
-Template : See classicthesis_iitpkd.zip
+Template : Download classicthesis_iitpkd directory
 For instructions for compilation and customization, follow README document in the directory classicthesis_iitpkd
 Two important options are the flags eulermath and printready configurable in the file classicthesis-config.tex
 *************************************************************************************************************
