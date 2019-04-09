@@ -16,7 +16,7 @@ Print/Screen Read Versions
 *************************************************************************************************************
 
 *************************************************************************************************************
-Organizing the preamble (see SampleThesisScreenView.pdf and SampleThesisforPrint.pdf)
+Organizing the preamble (see sample-thesis-screen-view.pdf and sample-thesis-for-print.pdf)
 *************************************************************************************************************
 The initial few pages should contain the following in that order:
   Page 1 : Title page 
@@ -82,7 +82,7 @@ Font Options (Recommended)
 *************************************************************************************************************
 For latex :
 1. Palatino together with eulermath for math fonts (see sample-thesis-for-print.pdf) or
-2. Palatino together with cmmodern for math fonts (see Sample-thesis-no-euler-math.pdf)
+2. Palatino together with cmmodern for math fonts (see sample-thesis-no-euler-math.pdf)
 
 For Word format :
 1. Palatino Linotype or 
